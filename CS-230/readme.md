@@ -4,22 +4,32 @@ The completed software design document I created following this course and cours
 
 # Questions
 1. Briefly summarize The Gaming Room client and their software requirements. Who was the client? What type of software did they want you to design? <br/>
-Answer goes here
+
+The client company The Gaming Room is wanting to develop a web-based game of their current game Draw It or Lose It but need help streamlining the development. The Gaming Room wants the web-based game of Draw It or Lose it to run on multiple platforms in which the game will be played by the application rendering images from a large library of stock drawings as clues. The game will have multiple teams consisting of multiple people if the teams are unable to guess the image before time expires the teams will get one final guess each to solve the puzzle within a 15 second time limit, the game and team name must be unique, and only one instance of the game can exist in memory at any given time. Draw It or Lose It is currently only an app only on Android Phones. 
 
 2. What did you do particularly well in developing this documentation? <br/>
-Anser goes here
+
+I felt like I followed the design constraints that our employer was after where I kept that in consideration and made a design document that followed that. In areas where I needed to include recommendations, or information I made sure to include an ample amount with multiple options so that my employer could choose between the options given. 
 
 3. What about the process of working through a design document did you find helpful when developing the code? <br/>
-Answer goes here
+
+By creating a software design document, I was able to map exactly what I wanted my code to do and how it would interact with different sections of the code. By also having the entire document ready at hand I knew exactly what the constraints that the system needed in place, and I was able to have an overview of what I need to accomplish making it easier, doing this instead of blindly writing code will save time down the line. 
 
 4. If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it? <br/>
-Answer goes here
+
+I would want to revise my recommendations since I feel for some of the sections I was not as specific as I should have been. In some sections I recommended exact information like getting an SSD and having a certain amount of memory for the server, but I did forget to include more information that would be helpful for our employer. <br/>
+<br/>I want to revise this section because I feel like the other sections that we worked on I covered all the information that we needed to cover, and I did it well enough that our employer The Gaming Room that they could use what I created for them. 
+
 
 5. How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing? <br/>
-Answer goes here
+
+I always had the designs that were given to me on the side as I worked on the software design document, this helped me refer to it as I worked to make sure that I stayed in the implemented features. This helped me to have a checklist to stay within it as I worked on the implementation and by doing this, I can create the product exactly to the specifications. 
+
+The reason that is important to stay inside of the implementation is that I am being hired to bring this product to life, but if I decide to do whatever I want it will take more and more time to finish the project that will then push the project further back thus causing the project to cost more since more time is needed. We want to avoid this since by ignoring the implementation that The Gaming Room wanted, we will spend more time, money, and effort since we are making the product more complicated, and this can lead to us being dropped from the project.  
 
 6. How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application? <br/>
-Answer goes here
+
+The techniques that I used to create the design document was to stay within the designs given to us, this helps us stay within budget and make the product in a timely manner. When I ran into an issue that I did not understand I would do research into the problem so that I could gain more knowledge about it to be able to design the software, this helped me by making my knowledge more well-rounded so that if I ever run into any issues that cause me to be stumped I now know how to research the question to find the answers I will need to fulfill my job that is given to me.   
 
 
 # Software Design Document
