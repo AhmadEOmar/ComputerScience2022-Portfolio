@@ -1,10 +1,16 @@
 # Questions 
 1. How do I interpret user needs and implement them into a program? How does creating “user stories” help with this?
-- Answer to question 1 <br/><br/>
+- To interpret user needs I would first need to listen to the requirements that the user needs the program to do and then ask more and more questions to get a bigger idea on what they really want, usually doing user stories also help with this because by doing a user story you are creating short, simple, and informal descriptions of the software requirements and features that the user wants.   <br/><br/>
 2. How do I approach developing programs? What agile processes do I hope to incorporate into my future development work?
-- Answer to question 2 <br/><br/>
-3. What does it mean to be a good team member in software development?
-- Answer to question 3 <br/><br/>
+- First thing to allow do is map out what I want my program to do, and by developing a plan on how to get there by either creating a chart on how my code will work or by making a flowchart of the code. The best agile processes that I would incorporate into future development is planning tasks with a software to keep track of what needs to be done, as well as taking the time to figure out which tasks are the most important / time consuming so that I can make sure my development work is finished in time by giving the more time-consuming tasks more time to work on them. <br/><br/>
+3. What does it mean to be a good team member in software development? 
+- In my opinion a good team member in software development is <br/>
+  - Having good communication skills this is important since you will be needing to communicate with a wide variety of people and being able to communicate effectively
+  - Writing good clean and readable code is important in software development and by following coding guidelines you make it easier for others to understand what your code does and makes it easier to fix down the line if any issues stem from it. 
+  - Being available and willing to help other members of the team because working as a software developer is usually a team effort and by helping others you are making sure that the product is delivered on time.
+  - Attending any meetings so that you are always know where everyone is standing and what issues they are running into so that you can offer help if needed.
+  - Knowing how to distance yourself from your code when you receive any criticism on it, team members do this to help you understand where the issues are with the code, and it also helps you to become a better software developer.
+
 
 # Module 7: Sprint Review & Retrospective
 
