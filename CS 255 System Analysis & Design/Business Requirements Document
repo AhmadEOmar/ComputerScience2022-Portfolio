@@ -1,0 +1,139 @@
+Purpose
+What is the purpose of this project? Who is the client and what do they want their system to be able to do?
++Our client Liam who is the owner of DriverPass is a creating a service that will help customers get training by online tests and in-person training to help these customers better pass the driving test at the DMV. 
++Liam has come to us so that we can help with the implementation of an online system that has practice tests that the users can take to get ready for the DMV test, as well as having the option to select a plan for in-person training with a trainer. 
+System Background
+What does DriverPass want the system to do? What is the problem they want to fix? What are the different components needed for this system?
+
+•	Liam wants the system to be able to be accessed both offline and online, unfortunately the dev team has stated this can cause redundancy with the data, so Liam instead wants the system to be able to be accessed from any computer and mobile device from anywhere and should be running off the web preferably over the cloud.
+•	The security of the system will have Ian the IT office to have full access to be able to reset passwords or can block access to certain users. As well as having varying level of access and privilege for users. 
+•	The system should be able to track reservations, cancelations, and modifications with the ability to print it out and see who the responsible party is. 
+•	The system will allow the users to create reservations for driving lessons with a calendar feature to pick the date and time the customer wants to create a reservation; the customer will have three packages to pick from, but that DriverPass can be able to disable a package. 
+Objectives and Goals
+What should this system be able to do when it is completed? What measurable tasks need to be included in the system design to achieve this?
+
+•	The system should be able to allow customers to be able to book, cancel, and modify the appointments that they picked but with DriverPass having the ability to disable packages. The customer should be also able to reset the password if they forgot it and this should happen automatically. 
+
+•	When a customer takes a test online it should show the score of the test they took, but if they didn’t finish the test, they can see the progress they have made on it. 
+
+•	There needs to be a page with the drivers comments as well as the time for the lessons. 
+•	A page where DriverPass can track which customer is matched with which driver, with the time, and car. 
+
+•	The system is connected to the DMV to make sure that DriverPass is notified when new rules, policies, or sample questions are added so that they can be notified and update the things they teach. 
+
+Requirements
+Nonfunctional Requirements
+In this section, you will detail the different nonfunctional requirements for the DriverPass system. You will need to think about the different things that the system needs to function properly.
+
+Performance Requirements
+What environments (web-based, application, etc.) does this system need to run in? How fast should the system run? How often should the system be updated?
+
+•	DrivePass will need to be a web-based in which our client wants the system to be able to be accesses from anywhere and at any time. This means that we will need to make sure that DrivePass is able to work with all major browsers as well as works well on mobile devices to meet the requirements they instated upon. 
+
+•	The system will need to be updated as soon as the clients learn of any updates that come from the DMV so that they can update the materials they teach to help people pass the driving tests.
+
+•	The system will need to be optimized to run on all modern computers and mobile devices so that the users are able to access it from any device at any time. 
+
+Platform Constraints
+What platforms (Windows, Unix, etc.) should the system run on? Does the back end require any tools, such as a database, to support this application?
+
+•	Since the client DrivePass want’s the system to work anywhere and at anytime that would mean that DrivePass will have to work on all platforms through a web-based system, and also be multiplatform with cross platform capabilities to work from anywhere and at any time. 
+
+•	DrivePass wants the system to preferably run over the cloud, and since we will be using the cloud to replace a database to keep the business running on minimal technical problems. 
+
+•	Since DrivePass will be using a cloud system to replace servers and such the cloud setup will need to be able to allow users to create an account, pull information of existing users when they login, billing information, testing information to showcase progress of current tests, driver notes, driver picture, and basic user information.
+
+•	By using the cloud, we will not need as many tools for the backend since the cloud will be replacing a backend server/database. We will need to make sure that appropriate security measures are in place since the cloud will be replacing the backend database. 
+
+Accuracy and Precision
+How will you distinguish between different users? Is the input case-sensitive? When should the system inform the admin of a problem?
+
+•	Users will be able to create an account in the initial setup where they can create the username they will be logging in with as well as the password they will be using. 
+
+•	The system will be able to distinguish between the level of access of either Admin, Worker, or user by the ID associated with the email, these will be unique to be able to differentiate them. If the email is associated with an admin ID, they will have admin rights which is full access, if it’s a worker ID they will have worker rights which are more limited than full access, and if it’s a user ID they will only be able to user the website as intended. 
+
+•	Usernames should not be case-sensitive, while passwords much be case-sensitive.
+
+•	Users should be able to automatically reset passwords that they have forgotten 
+
+•	There should be different level of access given between admins, workers of DrivePass, and users. Admins will have full access over all accounts, workers of DrivePass will have limited access compared to the admin, and users are able to access the website and use it for the intended reasons. 
+
+•	If an issue occurs the admin will need to receive a notification of the issue right away. 
+
+Adaptability 
+Can you make changes to the user (add/remove/modify) without changing code? How will the system adapt to platform updates? What type of access does the IT admin need? 
+
+•	The IT team will need to have full access to the cloud. By doing this we allow DrivePasses IT team to be able to maintain the cloud system, monitor it, and monitor the cloud system making sure that everything is running as intended. Since we will be using a cloud-based system the system will automatically update itself so will just need the IT team to look over it and make sure they are on the versions they want.
+
+•	By allowing the IT team having full access to the cloud system there will be able to close out any packages that DrivePass does not want to offer. 
+
+•	The IT team will also be able to reset passwords for workers and be able to remove workers from the system if they no longer work at the company without changing the code. 
+
+Security
+What is required for the user to log in? How can you secure the connection or the data exchange between the client and the server? What should happen to the account if there is a “brute force” hacking attempt? What happens if the user forgets their password? 
+
+•	To log onto the website the user will either need to create an account in which they will select the username and password they will be using, if the user already has an account, they will need to use the correct username and password to access the website. 
+
+•	We can implement the usage of two-factor authentication to help improve security for DrivePass and insure users accounts can’t be hacked as easily. 
+
+•	For secure connections we can use TLS protocol which is a newer version of the SSL protocol to encrypt data exchange between the client and the server to keep it secure. 
+
+•	If a brute attack should happen to try to log into the system, we can use both two-factor authentication as well as a timeout method in which the user tries to log into the system too many times in a row it will suspend the user from logging into the website for 10 minutes and continues to get longer in time until the account is suspended. The user will have to contact DriverPass for them to unsuspend the account. We can also incorporate captcha into the website after the user has attempted to log in with too many failed attempts. 
+
+•	If the user forgets the password, they can go into the login page and click on the forgot password button/link. This will start the process of sending the email on file a reset password link in which the user can click on that email link to change the password. 
+
+Functional Requirements
+Using the information from the scenario, think about the different functions the system needs to provide. Each of your bullets should start with “The system shall . . .” For example, one functional requirement might be, “The system shall validate user credentials when logging in.”
+
+•	The system shall validate user credentials on logging into the website 
+
+•	The system shall validate the level of access the person logging in has to the website
+
+•	The system will provide the user with option on the packages they can choose. The package they pick will showcase different parts of the website. The universal access they have is being able to pick a package, be able to make an appointment, cancel an appointment, and modify the appointment.  
+
+o	If the user picks package one, they will have access to the driver’s photo to know who the driver/trainer Is and will have six hours of training with the trainer.
+o	If the user picks package two, they will have access to the driver’s photo to know who the driver/trainer is, have eight hours of in car training, and in-person lessons to learn the DMV rules and policies. 
+o	If the user picks package three, they will have access to the driver’s photo to know who the driver/trainer is, have twelve hours of in car training, in-person lessons to learn the DMV rules and policies, and access to online classes with all the content and materials as well as practical tests. The practical tests will show on the website the progress of the test and the score the user gets at the end of it. 
+
+•	The system will be able to export data to DrivePass owner to help make business decisions easier. 
+
+User Interface
+What are the needs of the interface? Who are the different users for this interface? What will each user need to be able to do through the interface? How will the user interact with the interface (mobile, browser, etc.)? 
+
+•	The user interface will have a section or page in which the user is able to log into the website by entering username and password. The user can update any of this information as needed such as name, change password, change billing information, change address, and to be able to change and select a package.
+
+•	The user interface needs to show user basic information such as first name, last name, address, city, state, zip number, phone, email, and more if needed.
+
+•	The user interface needs to show the progress of the online test that the user is currently in the process of taking. It should also show any completed tests the user has taken with the time taken, score, status of in progress, failed, or passed. 
+
+•	The user interface needs to show an image of both the driver/trainer and the student’s photo to make sure the student knows how the trainer is and the driver makes sure they are training the correct student. 
+
+•	The user interface should allow the user to see the notes the driver has left in place for them with the time of the lesson, the start hour of the lesson, the end hour of the lesson, and any driver comments of the lesson. 
+
+•	If the user is on computer, they will be using a mouse and keyboard to interact with the website. 
+
+•	If the user is on a mobile device, they will be using the mobile devices touch screen to navigate the website and use the touch screen keyboard to input information. 
+
+•	The user interface should allow the user to access the online classes and tests that DriverPass offers. 
+
+Assumptions
+What things were not specifically addressed in your design above? What assumptions are you making in your design about the users or the technology they have? 
+
+•	We are assuming that the users using DrivePass have a strong and reliable internet connection to be able to use the online resources being offered. 
+
+•	The user can upload a photo of themselves. 
+
+•	The user has a good enough computer, and mobile device to be able to access DrivePass. 
+
+•	That the user has their internet browser on the latest version. 
+
+Limitations
+Any system you build will naturally have limitations. What limitations do you see in your system design? What limitations do you have as far as resources, time, budget, or technology?
+
+•	Since DrivePass wants to have a cloud-based system we will certainly have limitations depending on the budget for the cloud-based system as well as the cloud-based system they pick. 
+
+•	Since DrivePass wants the web-based system to be useable from any device and anywhere it will take more time to account for different screen sizes since we will have to account for different monitors and mobile devices. 
+
+•	DrivePasses owner wants to be able to export data to make better company decisions which can lead to security issues since they are download data to a computer. They will need to make sure they have proper security to make sure no customer data is stolen. 
+
+•	DrivePass wants to receive a notification from the DMV when a law or policy changes, we will need to take time and resources to find out if it’s possible to gain access to a government entity like that where we can find out when changes happen. 
