@@ -121,18 +121,18 @@ void printCourseList(vector<Course> courses)
 ```
 
 # Reflection
-+ What was the problem you were solving in the projects for this course? <br/>
-[Anaswer goes here] <br/>
++ What was the problem you were solving in the projects for this course? <br/> <br/>
+The problem we were trying to solve was how we can read data and manipulate that data in a fast and efficient manner where we calculate the speed of our program and the costs it takes to run it. We had the prompt of a college catalog needs to be read and we need to manipulate that data to showcase the course id, course name, and the prerequisites that those classes need, we then had to decide the best data source to handle this information and I choose vectors since that had a smaller memory cost compared to hash tables and binary search trees. <br/>
 
-+ How did you approach the problem? Consider why data structures are important to understand.  <br/>
-[Anaswer goes here] <br/>
++ How did you approach the problem? Consider why data structures are important to understand.  <br/><br/>
+I first approached this problem by creating pseudocode on what I needed my program to do in which I created pseudocode for vectors, hash tables, and binary search trees on how they will be able to manipulate that data we need to use, after that I create graphs which show the speed and cost for using each of these data structures which after looking at the tables I decided to go with vectors since they had the least cost making it a faster running program.  <br/> <br/> The importance of knowing which data structure to use is more apparent with much larger programs in our case we ran a program that didn't read too much data making anyone of the data solutions as a viable solution to use in our instance, but in the real world with vast data we need to make we are using the most efficient data structure due to the fact that using the wrong data structure will cause bloat in your software which will need to be addressed as the data gets bigger.
 
-+ How did you overcome any roadblocks you encountered while going through the activities or project?  <br/>
-[Anaswer goes here] <br/>
++ How did you overcome any roadblocks you encountered while going through the activities or project?  <br/><br/>
+The road blocks I ran into was not much since I used our textbook and the coursework we did in the class to create the foundation of the program, after looking in things I did decide to use tokens for how we break down the data that we were given and since I had never used tokens before I did have to consult StackOverflow and any other websites that spoke about the topic to read about how to implement the token code. By using the resources that I had available to me such as StackOverflow and tutorial websites that show example codes is how I was able to solve any problems that I ran into when creating the program this helped me for future jobs since usually the problem you run into will be things you may have never learned about and learning how to scour the web and find the information I needed is a helpful skill to have. <br/>
 
-+ How has your work on this project expanded your approach to designing software and developing programs?  <br/>
-[Anaswer goes here] <br/>
++ How has your work on this project expanded your approach to designing software and developing programs?  <br/><br/>
+The information I have learned in this class will follow me in any job that I take going forward by making me make sure to have pseudocode instead of coding right away, making sure that the data structures that I use are the most efficient ones that I need for the job, and learning how to breakdown anything I see into breakable chunks to make it a much more manageable project instead of something large and unreadable. <br/>
 
-+ How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?  <br/>
-[Anaswer goes here] <br/>
++ How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?  <br/><br/>
+Such as what I had answered above this class helped me to break down problems into smaller more manageable parts by using pseudocode to plan ahead and making sure I use the most suitable data structure, by breaking down the code into separate chunks I am able to reuse that code multiple times instead of using it once making the code more adaptable, and by writing more comments in my code and making documentation I also help future programmers that I work with to easily understand what my code will be doing. <br/>
 
