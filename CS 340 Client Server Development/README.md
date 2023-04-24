@@ -1,13 +1,16 @@
 # Read me file for CS 340 Client/Server Development
-+ This is the read me file for my portfolio coursework in CS 340 where we were using MongoDB with Python and jupyter notebook to create a dashboard for out client in this course Grazioso Salvare in which we are given a database and we need to filter the data to the specific data that Grazioso Salvare needs for their rescue dogs needed for the rescue missions they train them for. 
++ This is the read me file for my portfolio coursework in CS 340 where we were using MongoDB with Python and jupyter notebook to create a dashboard for our client in this course Grazioso Salvare in which we are given a database and we need to filter the data to the specific data that Grazioso Salvare needs for their rescue dogs needed for the rescue missions they train them for. 
 
 # How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
-+ Input 1 
++ The CRUD Python program that I created was a very small program that was created to create, read, update, and delete a file and by having that those functions in place I was able to use in conjunction with MongoDB to be able to create documents to the database, read the database, update the database, and delete files from the database and since the python file was relatively small it's easy to maintain and read since it was less than 50ish lines of code to do everything that we needed. In the case of our project, we only really used the function of reading the database in which we would use the read function to filter the data to what our client specified, we really didn't use any of the other functions in this project. 
 
 
 # How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
-+ Input 2
++ The way that I approach problems in computer science is to break the problem down into manageable chunks and finishing a chunk before moving onto a new section, for example when we were told to filter the data I made sure to try with one filter option before moving onto the next one so that I can ensure that the code is working as intended without any bugs. 
++ The way I went about the dashboard is to start at the top and work my way down by adding in the link on the image, and so forth. By doing this I was like I stated above I was able to test everything before moving along to ensure that the code was working how our client wanted. 
++ This project was different from our other assignments because we were finally changing how our data changed, instead of creating a new document, updating documents, or deleting documents we only used the read function where we read the data from the database to filter to specific animals that the client requested, we find for them. 
 
 
 # What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
-+ Input 3
++ It honestly depends on the type of work the computer scientist is doing but it always breaks down into trying to solve a specific problem with the software they are working on. 
++ As we can see our simple python code to create a CRUD application allows our client to easily find specific dogs that they were searching for instead of having to manually read the database or go to the animal clinic to search for these specific dogs. Instead, they can now easily search the database to find those specific dogs with the search option we provided making their work much easier as well as much more efficient.
