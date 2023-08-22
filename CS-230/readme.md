@@ -1,5 +1,5 @@
-# CS-230
-The completed software design document I created following this course and coursework
+# CS-230 Operating Platforms 
+The completed software design document I created following this course and coursework for CS 230 Operating Platforms in which I had to break down the different platforms our client would be able to use and the advantages and disadvantages to each one. 
 
 
 # Questions
