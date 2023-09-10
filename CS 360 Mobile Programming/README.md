@@ -4,7 +4,58 @@
 # Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 + The application that I selected was to create an inventory management application in which the user is first able to login or create an account and then they should be able to add, edit, and delete items from the inventory application that we created, and if an item reaches zero it should send a text notification to the user informing them they ran out of that item.
 + When the user tries to log into the application, we should check to ensure that they are an actual user and to ensure that they have input information into the username and password field.
-+ When the user tries to create an account, we want to ensure they are able to create a unique username and if that username is used already to let them know that username exists and if they used it to sign in with that existing username, we also ensure that the user has input information in all required fields.
++ When the user tries to create an account, we want to ensure they can create a unique username and if that username is used already to let them know that username exists and if they used it to sign in with that existing username, we also ensure that the user has input information in all required fields.
+
+# Reflection
++ This was an interesting final project for the class since I had not used Java or Android Studio in a while so it was a nice refresher course on the subject but if I go back to this project there are a few things I would Like to change since I had to create this project and get everything working within 2 weeks I'm honestly proud of what I accomplished within 2 weeks to get this application running and working but it is indeed more of a proof of concept than anything else.
+1. I would fix up the UI since it looks unprofessional and bad in areas
+2. I would fix the connection to the user id to items since the current implementation the user id can be anything when it should automatically be attached to the item on creation and increments up by 1. By doing this I can ensure everything is going down the list in an incremented manner as it increases.
+3. I would fix the create user setup since I forgot to have it check to make sure that an email is in there instead of any type of input such as Test which would work and go to the database.
+
+   
+
+
+
+# Sign In Page
++ The user is prompted to sign in and if they input the correct information that matches the database, they will move onto the inventory page.
++ ![Test](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/aba8837c-41bc-443c-bede-0381608da74b)
+
+
+# Create Account
++ If the user is new to the inventory software, they can create an account by clicking on the create an account text that will direct them to the account creation page.
++ The user will be asked to provide an email and password to sign into the inventory application but if they use an email that already exists, they will get a prompt informing them of this.
++ ![Create Account Page 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/e7ce185b-5f3f-4e35-b53f-0e2f28e80a4b)
+
+
+# Inventory App Main Page
++ After Signing in the user is now able to use the inventory application and are directed to the main page in which they can
+   - Sign out back to the login page
+   - Request SMS notification for when an item reaches 0 inventory
+   - Add a new item
+   - Delete an item
++ ![Inventory Page 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/16079e7f-de6a-4185-8d38-cdb7d51092da)
+
+# SMS Notification
++ The user can request SMS notification by clicking the SMS button and when doing so it sends a request for the phone to allow the SMS notification.
++ ![SMS Permission Needed 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/df1da31f-7e38-4eb7-bfd6-2fb385c81abe)
++ ![Permission Request 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/d1f42f44-4e17-42ae-aefe-8714d45c433d)
+
+# Add Edit and Delete Inventory
++ The user can add, edit, and delete items in the inventory by clicking on the add item icon, the delete icon, and the edit icon when the item get's added.
++ ![Add Item 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/86258d80-3096-4d9e-973c-507614e46278)
++ ![Inventory Updated 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/13c145f1-ce0c-493c-a72a-91c85f8e0dfd)
++ ![Edit Item Page 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/090960d9-736a-4b22-a5cf-eac6e9c0fb23)
++ ![Edit Item Updated Inventory Page 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/3c7d877b-4ad0-4419-9bc5-0cccab138a1a)
++ ![Delete Item Page 2](https://github.com/AhmadEOmar/ComputerScience2022-Portfolio/assets/31226496/9a258558-ef95-4565-b2a6-37229c1d05e2)
+
+
+
+
+
+
+
+
+
 
 
 
